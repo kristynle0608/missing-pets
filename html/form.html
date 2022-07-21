@@ -23,16 +23,18 @@
     <div id="titleForm">Report Your Missing Furry Friend</div>
 
     <div class="container">
-        <div id="label">Please fill out the form below.</div>
+        <div id="instruction">Please fill out the form below.</div>
     </div>
 
     <div id="form" class="container" style="width: 70%;">
         <form>
             <div class="row">
                 <div class="col">
-                  <input type="text" class="form-control" placeholder="Pet Name" aria-label="Pet Name">
+                    <label for="petName">Pet Name</label>
+                    <input type="text" id="petName" class="form-control" placeholder="Ex: Max" aria-label="Pet Name">
                 </div>
                 <div class="col">
+                    <label for="type-of-pets-dropdown">Type of Pet</label>
                     <select class="form-select" id="type-of-pets-dropdown">
                         <option value="default" selected>Select type of pet...</option>
                         <option value="cat">Cat</option>
@@ -42,6 +44,7 @@
             </div>
             <div class="row">
                 <div class="col">
+                    <label for="gender-dropdown">Gender of Pet</label>
                     <select class="form-select" id="gender-dropdown"> 
                         <option value="default" selected>Select Gender of Pet...</option>
                         <option value="male">Male</option>
@@ -49,17 +52,20 @@
                     </select>
                 </div>
                 <div class="col">
+                    <label for="dateLost">Date Pet Went Missing</label>
                     <input id="dateLost" type="date" class="form-control">
                 </div>
             </div>
             <div class="row">
                 <div class="col">
+                    <label for="country-dropdown">Country</label>
                     <select class="form-select" id="country-dropdown">
                         <option value="default" selected>Select Country...</option>
                         <option value="canada">Canada</option>
                     </select>
                 </div>
                 <div class="col">
+                    <label for="province-dropdown">Province</label>
                     <select class="form-select" id="province-dropdown">
                         <option value="default" selected>Select Province...</option>
                         <option value="alberta">Alberta</option>
@@ -78,11 +84,50 @@
                     </select>
                 </div>
                 <div class="col">
+                    <label for="city">City</label>
                     <input class="form-control" type="text" id="city" placeholder="Ex: Toronto">
                 </div>             
             </div>
+            <div class="row">
+                <div class="col">
+                    <label for="file">Upload Document(s)</label>
+                    <div class="input-group mb-3">
+                        <input type="file" class="form-control" id="inputGroupFile02">
+                        <label class="input-group-text" for="inputGroupFile02">Upload</label>
+                    </div>
+                </div>
+            </div>
 
             <hr>
+
+            <div id="contact-info">Owner's Contact Info</div>
+
+            <div class="row">
+                <div class="col">
+                    <label for="firstName">Owner's First Name</label>
+                    <input id="firstName" type="text" class="form-control" placeholder="Ex: John">
+                </div>
+                <div class="col">
+                    <label for="lastName">Owner's Last Name</label>
+                    <input id="lastName" type="text" class="form-control" placeholder="Ex: Smith">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Ex: john.smith@example.com">
+                </div>
+                <div class="col">
+                    <label for="phone-number">Phone Number</label>
+                    <input type="tel" class="form-control" id="phone-number" placeholder="Ex: 123456789">
+                </div>
+            </div>
+            <center>
+                <button type="submit" class="btn btn-success">Submit</button>
+                <button type="cancel" class="btn btn-danger">Cancel</button>
+                <button type="reset" class="btn btn-light">Reset</button>
+            </center>
+
         </form>
     </div>
     
