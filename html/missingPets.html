@@ -23,6 +23,7 @@
         </div>
     </nav>
     
+    <!-- Search "bar" -->
     <center>
         <table id="searchTable" style="width: 60%; text-align: center;">
             <tr style="height: 50px">
@@ -43,7 +44,6 @@
                 <td width="250">
                     <select class="form-select" id="type-of-pets-dropdown">
                         <option value="default" selected>Select...</option>
-                        <option value="dog">Dog</option>
                         <option value="cat">Cat</option>
                     </select>
                 </td>
@@ -51,7 +51,6 @@
                     <select class="form-select" id="gender-dropdown"> 
                         <option value="default" selected>Select...</option>
                         <option value="male">Male</option>
-                        <option value="female">Female</option>
                     </select>
                 </td>
                 <td width="250">
@@ -65,41 +64,42 @@
         </table>
     </center>
 
+    <!-- Show information of the missing pets -->
     <div class="container">
         
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="../pictures/cats/den1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <h5 class="card-title"><b>Missing:</b> Đen</h5>
+                      <p class="card-text">
+                        <b>Name: </b>Đen <br>
+                        <b>Specie: </b>Cat <br>
+                        <b>Date Lost: </b>July 20, 2019 <br>
+                        <b>Province: </b>NB
+                        </p>
+                      <a href="#" class="btn btn-primary">View More</a>
                     </div>
                 </div>
             </div>
             
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="../pictures/cats/xam3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <h5 class="card-title"><b>Missing:</b> Xám</h5>
+                      <p class="card-text">
+                        <b>Name: </b>Xám <br>
+                        <b>Specie: </b>Cat <br>
+                        <b>Date Lost: </b>July 20, 2019 <br>
+                        <b>Province: </b>NB
+                        </p>
+                      <a href="#" class="btn btn-primary">View More</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
         </div>  
     </div>
     

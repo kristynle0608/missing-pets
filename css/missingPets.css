@@ -2,7 +2,7 @@
     padding: 30px;
     background-color: #ededed;
     border-radius: 5px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 th {
@@ -14,10 +14,15 @@ td {
 }
 
 #report-missing-pet {
+    margin-right: 10px;
     color: red;
     font-weight: 500;
 }
 
 #report-missing-pet:hover {
     color: crimson;
+}
+
+body {
+    padding-bottom: 40px;
 }
