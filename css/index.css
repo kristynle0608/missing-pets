@@ -55,13 +55,3 @@ td {
 #logo {
     width: 15%;
 }
-
-#report-missing-pet {
-    color: red;
-    font-weight: 500;
-    margin-right: 10px;
-}
-
-#report-missing-pet:hover {
-    color: crimson;
-}

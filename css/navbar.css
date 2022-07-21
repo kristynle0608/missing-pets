@@ -1,0 +1,9 @@
+#report-missing-pet {
+    margin-right: 10px;
+    color: red;
+    font-weight: 500;
+}
+
+#report-missing-pet:hover {
+    color: crimson;
+}
