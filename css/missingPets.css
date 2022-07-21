@@ -1,0 +1,22 @@
+#searchTable {
+    padding: 30px;
+    background-color: #ededed;
+    border-radius: 5px;
+}
+
+th {
+    font-size: 20px;
+}
+
+td {
+    padding: 15px;
+}
+
+#report-missing-pet {
+    color: red;
+    font-weight: 500;
+}
+
+#report-missing-pet:hover {
+    color: crimson;
+}
