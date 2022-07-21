@@ -15,17 +15,42 @@ body {
     text-align: center;
 }
 
-table, th, td {
+/* table, th, td {
     border:1px solid black;
     border-collapse: collapse;
-  }
+  } */
 
 
 #searchTable {
-    background-color: #d9d9d9;
+    background-color: #aedbdf;
     padding: 20px;
+}
+
+th {
+    font-size: 20px;
 }
 
 td {
     padding: 15px;
+}
+
+.dropdown {
+    width: 100%;
+    background-color: snow;
+    padding: 8px;
+}
+
+#question {
+    margin-left: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#title {
+    font-size: 50px;
+}
+
+img {
+    width: 22%;
 }
