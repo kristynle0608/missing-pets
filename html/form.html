@@ -33,8 +33,53 @@
                   <input type="text" class="form-control" placeholder="Pet Name" aria-label="Pet Name">
                 </div>
                 <div class="col">
-                  <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                    <select class="form-select" id="type-of-pets-dropdown">
+                        <option value="default" selected>Select type of pet...</option>
+                        <option value="cat">Cat</option>
+                        <option value="dog">Dog</option>
+                    </select>
                 </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <select class="form-select" id="gender-dropdown"> 
+                        <option value="default" selected>Select Gender of Pet...</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <input id="dateLost" type="date" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <select class="form-select" id="country-dropdown">
+                        <option value="default" selected>Select Country...</option>
+                        <option value="canada">Canada</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <select class="form-select" id="province-dropdown">
+                        <option value="default" selected>Select Province...</option>
+                        <option value="alberta">Alberta</option>
+                        <option value="british-columbia">British Columbia</option>
+                        <option value="manitoba">Manitoba</option>
+                        <option value="new-brunswick">New Brunswick</option>
+                        <option value="newfoundland-and-labrador">Newfoundland and Labrador</option>
+                        <option value="northwest-territories">Northwest Territories</option>
+                        <option value="nova-scotia">Nova Scotia</option>
+                        <option value="nunavut">Nunavut</option>
+                        <option value="ontario">Ontario</option>
+                        <option value="pei">Prince Edward Island</option>
+                        <option value="quebec">Quebec</option>
+                        <option value="saskatchewan">Saskatchewan</option>
+                        <option value="yukon">Yukon</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <input class="form-control" type="text" id="city" placeholder="Ex: Toronto">
+                </div>             
             </div>
 
             <hr>
@@ -42,4 +87,5 @@
     </div>
     
 </body>
+<script src="../js/form.js"></script>
 </html>
