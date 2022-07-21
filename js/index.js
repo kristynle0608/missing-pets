@@ -5,7 +5,11 @@ $("#searchButton").click(function () {
 
     if (typeOfPet == "default" || gender == "default" || location == "default") {
         console.log("Default");
+        alert("All fields are required!");
 
         // TODO:- Store typeOfPet, gender, and location in local storage
+    }
+    else {
+        window.location.href='missingPets.html';
     }
 });
