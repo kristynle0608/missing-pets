@@ -10,13 +10,57 @@
     
 </head>
 <body>
-    <div class="center">
-        <img src="../pictures/logo.png">
-        <div id="title">Lost Furry Friends</div>
-    </div>
+    <center>
+        <div id="image">
+            <img src="../pictures/logo.png">
+            <div id="title">Lost Furry Friends</div>
+        </div>      
+    </center>
 
-    <div class="center">
-        
-    </div>
+    <div>Which furry friend are you looking for?</div>
+
+    <center>
+        <table id="searchTable" style="width: 60%; text-align: center;">
+            <tr style="height: 40px">
+                <th>
+                    <label for="type-of-pets-dropdown">Type of Pet</label>
+                </th>
+                <th>
+                    <label for="gender-dropdown">Gender</label>
+                </th>
+                <th>
+                    <label for="location-dropdown">Location</label>
+                </th>
+                <td rowspan="2">
+                    <button id="searchButton">Search</button>
+                </td>
+            </tr>
+            <tr style="height: 40px;">
+                <td>
+                    <select id="type-of-pets-dropdown">
+                        <option value="default" selected>Select...</option>
+                        <option value="dog">Dog</option>
+                        <option value="cat">Cat</option>
+                    </select>
+                </td>
+                <td>
+                    <select id="gender-dropdown">
+                        <option value="default" selected>Select...</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </td>
+                <td>
+                    <select id="location-dropdown">
+                        <option value="default" selected>Select...</option>
+                        <option value="canada">Canada</option>
+                    </select>
+                </td>
+                
+            </tr>
+        </table>
+    </center>
+    
+
 </body>
 </html>
