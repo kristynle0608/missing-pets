@@ -1,5 +1,15 @@
 #titleForm {
     text-align: center;
+    font-size: 40px; 
+    margin-top: 50px;   
+    margin-bottom: 50px;
+    color: #5ea5ab;
+}
+
+#instruction {
+    font-size: 20px;
+    margin-top: 30px;   
+    margin-bottom: 30px;
 }
 
 #contact-info {
