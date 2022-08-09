@@ -5,20 +5,20 @@ body {
 
 .pet-container {
     padding-left: 30px;
-    margin-left: 30px;
+    margin-left: 225px;
     font-size: 20px;
 }
 
 h1 {
-    margin-bottom: 20px;
+    margin-bottom: 80px;
 }
 
-.owner-container {
-    font-size: 18px;
+.owner-container {    
+    font-size: 1.3rem;
     padding-left: 30px;
-    margin-left: 30px;
+    margin-left: 225px;
 }
 
 .item {
-    
+    margin-bottom: 15px;
 }
